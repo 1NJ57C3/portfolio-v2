@@ -1,10 +1,8 @@
-import './App.css'
-
 function App() {
   return (
-    <main>
+    <div className="App">
       <p>Placeholder</p>
-    </main>
+    </div>
   )
 }
 
