@@ -1,0 +1,10 @@
+:root {
+  --bg: #0d0e12;
+  --text-color: #e6e1da;
+  --accent: #7c5cff;
+  --border: #24211f;
+
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+}
