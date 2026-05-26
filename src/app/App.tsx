@@ -1,7 +1,9 @@
+import About from "../sections/About/About"
+
 function App() {
   return (
     <div className="App">
-      <p>Placeholder</p>
+      <About />
     </div>
   )
 }
