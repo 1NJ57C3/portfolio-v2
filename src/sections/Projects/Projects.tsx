@@ -11,8 +11,10 @@ function Projects() {
 
   return (
     <section className="projects" id="projects">
-      <h2>Selected Work</h2>
-      <ul className="projects-grid">{displayProjects}</ul>
+      <div className="container">
+        <h2>Selected Work</h2>
+        <ul className="projects-grid">{displayProjects}</ul>
+      </div>
     </section>
   );
 }
