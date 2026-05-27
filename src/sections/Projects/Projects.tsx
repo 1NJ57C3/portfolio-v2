@@ -1,9 +1,9 @@
-import { ProjectData } from "./ProjectData";
+import { projects } from "./ProjectData";
 import ProjectCard from "./ProjectCard";
 import "./projects.css";
 
 function Projects() {
-  const displayProjects = ProjectData.map((project) => (
+  const displayProjects = projects.map((project) => (
     <li key={project.id}>
       <ProjectCard {...project} />
     </li>

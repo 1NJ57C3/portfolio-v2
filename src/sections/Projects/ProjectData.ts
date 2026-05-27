@@ -8,7 +8,7 @@ export interface Project {
 
 export type ProjectData = Project[];
 
-export const ProjectData = [
+export const projects = [
   {
     id: 0,
     title: "dummy 1",
