@@ -1,5 +1,6 @@
 import { ProjectData } from "./ProjectData";
 import ProjectCard from "./ProjectCard";
+import "./projects.css";
 
 function Projects() {
   const displayProjects = ProjectData.map((project) => (
