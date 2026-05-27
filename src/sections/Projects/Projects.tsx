@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 
 function Projects() {
   const displayProjects = ProjectData.map((project) => (
-    <ProjectCard {...project} />
+    <ProjectCard key={project.id} {...project} />
   ));
 
   return (
