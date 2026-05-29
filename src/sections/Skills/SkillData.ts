@@ -1,33 +1,92 @@
 type SkillCategory = "language" | "frontend" | "backend" | "infra" | "workflow";
 
 interface Skill {
+  id: number;
   name: string;
   website: string;
   category: SkillCategory;
 }
 
-const skills: Skill[] = [];
+type RawSkill = Omit<Skill, "id">;
 
-skills.push({ name: "JavaScript", website: "https://javascript.com/", category: "language" });
-skills.push({ name: "TypeScript", website: "https://typescript.org/", category: "frontend" });
-skills.push({ name: "Python", website: "https://python.org/", category: "language" });
-skills.push({ name: "Ruby", website: "https://ruby-lang.org/", category: "language" });
-skills.push({ name: "SQL", website:"", category: "language" });
+const rawSkills: RawSkill[] = [];
 
-skills.push({ name: "React", website: "https://react.dev/", category: "frontend" });
-skills.push({ name: "HTML5", website: "https://w3.org/html/", category: "frontend"});
-skills.push({ name: "CSS3", website: "https://w3.org/Style/CSS/Overview.en.html", category: "frontend" });
+rawSkills.push({
+  category: "language",
+  name: "JavaScript",
+  website: "https://javascript.com/",
+});
+rawSkills.push({
+  category: "language",
+  name: "TypeScript",
+  website: "https://typescript.org/",
+});
+rawSkills.push({
+  category: "language",
+  name: "Python",
+  website: "https://python.org/",
+});
+rawSkills.push({
+  category: "language",
+  name: "Ruby",
+  website: "https://ruby-lang.org/",
+});
+rawSkills.push({ category: "language", name: "SQL", website: "" });
 
-skills.push({ name: "Node.js", website: "https://nodejs.org", category: "backend" });
-skills.push({ name: "Django", website: "https://djangoproject.com", category: "backend" });
-skills.push({ name: "Ruby on Rails", website: "https://rubyonrails.org", category: "backend" });
-skills.push({ name: "PostgreSQL", website: "https://postgresql.org", category: "backend" });
+rawSkills.push({
+  category: "frontend",
+  name: "React",
+  website: "https://react.dev/",
+});
+rawSkills.push({
+  category: "frontend",
+  name: "HTML5",
+  website: "https://w3.org/html/",
+});
+rawSkills.push({
+  category: "frontend",
+  name: "CSS3",
+  website: "https://w3.org/Style/CSS/Overview.en.html",
+});
 
-skills.push({ name: "Git", website: "https://git-scm.com", category: "infra" });
-skills.push({ name: "Vercel", website: "https://vercel.com", category: "infra" });
-skills.push({ name: "CI/CD", website: "", category: "infra" });
+rawSkills.push({
+  category: "backend",
+  name: "Node.js",
+  website: "https://nodejs.org",
+});
+rawSkills.push({
+  category: "backend",
+  name: "Django",
+  website: "https://djangoproject.com",
+});
+rawSkills.push({
+  category: "backend",
+  name: "Ruby on Rails",
+  website: "https://rubyonrails.org",
+});
+rawSkills.push({
+  category: "backend",
+  name: "PostgreSQL",
+  website: "https://postgresql.org",
+});
 
-skills.push({ name: "GitHub", website: "https://github.com", category: "workflow" });
-skills.push({ name: "Postman", website: "", category: "workflow" });
+rawSkills.push({
+  category: "infra",
+  name: "Git",
+  website: "https://git-scm.com",
+});
+rawSkills.push({
+  category: "infra",
+  name: "Vercel",
+  website: "https://vercel.com",
+});
+rawSkills.push({ category: "infra", name: "CI/CD", website: "" });
 
-export { skills };
+rawSkills.push({
+  category: "workflow",
+  name: "GitHub",
+  website: "https://github.com",
+});
+rawSkills.push({ category: "workflow", name: "Postman", website: "" });
+
+export const skills: Skill[] = rawSkills.map((skill, id) => ({ id, ...skill }));
