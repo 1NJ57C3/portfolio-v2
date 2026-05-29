@@ -1,13 +1,9 @@
-export class Skill {
+type SkillCategory = "language" | "frontend" | "backend" | "infra" | "workflow";
+
+interface Skill {
   name: string;
   website: string;
-  category: "language" | "frontend" | "backend" | "infra" | "workflow";
-
-  constructor({ name, website, category }: Skill) {
-    this.name = name;
-    this.website = website;
-    this.category = category;
-  }
+  category: SkillCategory;
 }
 
 const skills: Skill[] = [];
