@@ -22,8 +22,10 @@ function Skills() {
 
   return (
     <section className="skills" id="skills">
-      <h2>Toolkit</h2>
-      <div className="skills-grid">{displaySkills}</div>
+      <div className="container">
+        <h2>Toolkit</h2>
+        <div className="skills-grid">{displaySkills}</div>
+      </div>
     </section>
   );
 }
