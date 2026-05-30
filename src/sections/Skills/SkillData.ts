@@ -52,28 +52,28 @@ rawSkills.push({
 rawSkills.push({
   category: "backend",
   name: "Node.js",
-  website: "https://nodejs.org",
+  website: "https://nodejs.org/",
 });
 rawSkills.push({
   category: "backend",
   name: "Django",
-  website: "https://djangoproject.com",
+  website: "https://djangoproject.com/",
 });
 rawSkills.push({
   category: "backend",
   name: "Ruby on Rails",
-  website: "https://rubyonrails.org",
+  website: "https://rubyonrails.org/",
 });
 rawSkills.push({
   category: "backend",
   name: "PostgreSQL",
-  website: "https://postgresql.org",
+  website: "https://postgresql.org/",
 });
 
 rawSkills.push({
   category: "infra",
   name: "Git",
-  website: "https://git-scm.com",
+  website: "https://git-scm.com/",
 });
 rawSkills.push({
   category: "infra",
@@ -85,8 +85,12 @@ rawSkills.push({ category: "infra", name: "CI/CD", website: "" });
 rawSkills.push({
   category: "workflow",
   name: "GitHub",
-  website: "https://github.com",
+  website: "https://github.com/",
 });
-rawSkills.push({ category: "workflow", name: "Postman", website: "" });
+rawSkills.push({
+  category: "workflow",
+  name: "Postman",
+  website: "https://postman.com/",
+});
 
 export const skills: Skill[] = rawSkills.map((skill, id) => ({ id, ...skill }));
