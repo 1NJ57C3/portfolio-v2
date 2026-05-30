@@ -1,18 +1,18 @@
 export const skillCategories = [
-  "language",
-  "frontend",
-  "backend",
-  "infra",
-  "workflow",
+  { name: "language", label: "Languages" },
+  { name: "frontend", label: "Frontend Systems" },
+  { name: "backend", label: "Backend & Data" },
+  { name: "infra", label: "Tools & Infrastructure" },
+  { name: "workflow", label: "Design & Workflow" },
 ] as const;
 
-type SkillCategory = (typeof skillCategories)[number]
+type SkillCategory = (typeof skillCategories)[number];
 
 interface Skill {
   id: number;
   name: string;
   website: string;
-  category: SkillCategory;
+  category: SkillCategory["name"];
 }
 
 type RawSkill = Omit<Skill, "id">;
