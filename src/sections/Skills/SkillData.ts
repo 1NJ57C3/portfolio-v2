@@ -1,4 +1,12 @@
-type SkillCategory = "language" | "frontend" | "backend" | "infra" | "workflow";
+export const skillCategories = [
+  "language",
+  "frontend",
+  "backend",
+  "infra",
+  "workflow",
+] as const;
+
+type SkillCategory = (typeof skillCategories)[number]
 
 interface Skill {
   id: number;
