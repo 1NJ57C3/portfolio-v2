@@ -13,7 +13,7 @@ function Projects() {
     <section className="projects" id="projects">
       <div className="container">
         <h2>Selected Work</h2>
-        <ul className="projects-grid">{displayProjects}</ul>
+        <ul className="list-reset projects-grid">{displayProjects}</ul>
       </div>
     </section>
   );
