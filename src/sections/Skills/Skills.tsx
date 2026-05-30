@@ -1,5 +1,6 @@
 import { skillCategories, skills } from "./SkillData";
 // import SkillCard from "./SkillCard";
+import "./skills.css";
 
 function Skills() {
   const displaySkills = skillCategories.map((category) => (
