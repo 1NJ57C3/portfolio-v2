@@ -13,8 +13,8 @@ function Hero() {
             Software engineer building thoughtful interfaces, interaction
             systems, and immersive digital experiences.
           </p>
+          <a href="#projects">View selected work &rarr;</a>
         </header>
-        <a href="#projects">View selected work &rarr;</a>
       </div>
     </section>
   );
