@@ -1,3 +1,5 @@
+import { scrollToSection } from "../../shared/utils/ScrollToSection";
+
 function Hero() {
   return (
     <section className="hero" id="hero">
@@ -13,7 +15,9 @@ function Hero() {
             Software engineer building thoughtful interfaces, interaction
             systems, and immersive digital experiences.
           </p>
-          <a href="#projects">View selected work &rarr;</a>
+          <button onClick={() => scrollToSection("projects")}>
+            View selected work &rarr;
+          </button>
         </header>
       </div>
     </section>
