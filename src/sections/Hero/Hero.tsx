@@ -5,17 +5,15 @@ function Hero() {
     <section className="hero" id="hero">
       <div className="container">
         <header className="hero-copy">
-          <div className="hero-identity">
-            <h1>Inji</h1>
-            <p className="hero-tagline">
-              Designing systems that feel as intentional as they function.
-            </p>
+          <h1 className="hero-identity">Inji</h1>
+          <div className="hero-tagline">
+            <p>Thoughtful systems.</p>
+            <p>Deliberate experiences.</p>
           </div>
-          <p className="hero-description">
-            Software engineer building thoughtful interfaces, interaction
-            systems, and immersive digital experiences.
-          </p>
-          <button onClick={() => scrollToSection("projects")}>
+          <button
+            className="hero-cta"
+            onClick={() => scrollToSection("projects")}
+          >
             View selected work &rarr;
           </button>
         </header>
