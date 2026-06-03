@@ -3,16 +3,29 @@ function About() {
     <section className="about" id="about">
       <div className="container">
         <h2>About</h2>
-        <p>
-          I enjoy solving problems that sit between engineering and experience
-          design.
+        <p className="about-thesis">
+          Building software that remains understandable as it grows.
         </p>
-        <p>
-          Whether building frontend systems, refining interaction flows, or
-          experimenting with visual presentation, I&rsquo;m most interested in
-          work that feels intentional — where structure, usability, and
-          aesthetics support each other instead of competing for attention.
-        </p>
+        <div className="about-body">
+          <p>
+            Most projects start simply. Over time, requirements change,
+            systems evolve, and decisions that once seemed obvious begin
+            revealing tradeoffs. I often find myself working in that space
+            between immediate needs and long-term maintainability.
+          </p>
+          <p>
+            My work primarily focuses on modern web applications using React,
+            TypeScript, Django, and PostgreSQL, though I'm generally more
+            interested in systems than technologies. Whether I'm designing an
+            interface, organizing a codebase, or evaluating an architectural
+            decision, I'm usually looking for the same thing: coherence.
+          </p>
+          <p>
+            The projects here reflect that approach. They're less a showcase
+            of tools and more a record of problems, constraints, decisions,
+            and the systems that emerged from them.
+          </p>
+        </div>
       </div>
     </section>
   );
