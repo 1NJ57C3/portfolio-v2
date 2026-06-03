@@ -27,6 +27,5 @@ body {
 }
 
 .App {
-  width: min(100%, 1120px);
   margin-inline: auto;
 }
