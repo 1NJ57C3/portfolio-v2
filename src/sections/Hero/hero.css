@@ -29,13 +29,13 @@
 .hero-identity {
   margin: 0;
   margin-block-end: 2rem;
-  font-size: clamp(8rem, 10vw + 0.5rem, 11rem);
+  font-size: clamp(8.5rem, 10vw + 1rem, 11rem);
   line-height: 0.85;
 }
 
 .hero-tagline p {
   margin: 0;
-  font-size: clamp(2rem, 2vw + 0.5rem, 2.25rem);
+  font-size: clamp(1.75rem, 2vw + 0.25rem, 2.25rem);
   line-height: 1.05;
 }
 
