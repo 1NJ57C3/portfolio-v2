@@ -31,10 +31,10 @@ function About() {
           <h3>A Few Other Things</h3>
           <ul>
             <li>Bay Area based</li>
-            <li>Gaming</li>
+            <li>Gamer</li>
             <li>Perpetual overanalyzer</li>
             <li>Consumer of matcha, boba, coffee, and tea</li>
-            <li>Curiosity tends to snowball</li>
+            <li>Curiosity has a tendency to snowball</li>
           </ul>
         </aside>
       </div>
