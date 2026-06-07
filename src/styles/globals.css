@@ -23,10 +23,11 @@ body {
 #root {
   min-height: 100vh;
   min-height: 100dvh;
-  display: flex;
-  flex-direction: column;
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
   margin-inline: auto;
+  width: var(--canvas-width);
 }
