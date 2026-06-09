@@ -1,4 +1,4 @@
-import { scrollToSection } from "../../shared/utils/ScrollToSection";
+import { scrollToSection } from "../../shared/utils/scrollToSection";
 import "./hero.css";
 
 function Hero() {
@@ -7,8 +7,8 @@ function Hero() {
       <div className="hero-background" />
       <div className="container">
         <header className="hero-copy">
-          <h1 className="hero-identity">Inji</h1>
-          <div className="hero-tagline">
+          <h1 className="hero-title">Inji</h1>
+          <div className="hero-statement">
             <p>Thoughtful systems.</p>
             <p>Deliberate experiences.</p>
           </div>

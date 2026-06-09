@@ -1,24 +1,25 @@
 .hero {
   position: relative;
   min-height: clamp(550px, 80svh, 750px);
-}
-
-.hero-background {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background: url("src/assets/hero-dusk.png") no-repeat center;
-  background-size: cover;
-  z-index: -1;
+  min-width: 100%;
 }
 
 .hero .container {
   position: absolute;
-  height: 100%;
-  width: 100%;
   display: grid;
-  grid-template: 3fr 5fr / 1fr 6fr;
+  grid-template: 3fr 5fr / 1.25fr 6fr;
+  height: 100%;
+  min-width: 100%;
   background: rgba(0, 0, 0, 0.2);
+}
+
+.hero-background {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  min-width: 100%;
+  background: url("src/assets/hero-dusk.png") no-repeat center;
+  background-size: cover;
 }
 
 .hero-copy {
@@ -26,14 +27,14 @@
   grid-column-start: 2;
 }
 
-.hero-identity {
+.hero-title {
   margin: 0;
   margin-block-end: 2rem;
   font-size: clamp(8.5rem, 10vw + 1rem, 11rem);
   line-height: 0.85;
 }
 
-.hero-tagline p {
+.hero-statement p {
   margin: 0;
   font-size: clamp(1.75rem, 2vw + 0.25rem, 2.25rem);
   line-height: 1.05;
@@ -41,6 +42,7 @@
 
 .hero-cta {
   margin-block-start: 3rem;
+  padding-inline: 0;
   font-size: 1.25rem;
   background: none;
   border: none;
