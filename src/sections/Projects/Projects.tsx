@@ -4,7 +4,7 @@ import "./projects.css";
 
 function Projects() {
   const displayProjects = projects.map((project) => (
-    <li key={project.id}>
+    <li key={project.id} className="projects-item">
       <ProjectCard {...project} />
     </li>
   ));
@@ -12,7 +12,7 @@ function Projects() {
   return (
     <section className="projects" id="projects">
       <div className="container">
-        <h2>Selected Work</h2>
+        <h2 className="section-title">Selected Work</h2>
         <ul className="list-reset projects-grid">{displayProjects}</ul>
       </div>
     </section>
