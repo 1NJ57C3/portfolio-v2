@@ -1,9 +1,9 @@
 :root {
-  --bg-primary: #0d0e12;
-  --bg-secondary: #11141c;
-  --text-primary: #e6e1da;
-  --accent: #7c5cff;
-  --border: #24211f;
+  --color-bg-primary: #0d0e12;
+  --color-bg-secondary: #11141c;
+  --color-text-primary: #e6e1da;
+  --color-accent: #7c5cff;
+  --color-border: 36, 33, 31;
 
   --canvas-width: min(100vw, calc(100vh * (16 / 9)));
 
