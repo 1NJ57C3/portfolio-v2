@@ -1,4 +1,4 @@
-import { scrollToSection } from "../../shared/utils/scrollToSection";
+import { scrollToSection } from "@/shared/utils/scrollToSection";
 import "./hero.css";
 
 function Hero() {
