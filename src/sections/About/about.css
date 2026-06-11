@@ -1,0 +1,21 @@
+.about .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.about-content {
+  flex: 1 1 65ch;
+}
+
+.about-aside {
+  flex: 1 1 23ch;
+}
+
+.about-body {
+  max-width: 65ch;
+}
+.about-aside-list {
+  min-width: 19ch;
+}
