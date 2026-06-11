@@ -35,7 +35,7 @@ function About() {
         </div>
         <aside className="about-aside">
           <h3 className="about-aside-title">A Few Other Things</h3>
-          <ul className="about-aside-list">
+          <ul className="list-reset about-aside-list">
             <li>Bay Area based</li>
             <li>Gamer</li>
             <li>Perpetual overanalyzer</li>
