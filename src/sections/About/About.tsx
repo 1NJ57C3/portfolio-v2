@@ -3,33 +3,37 @@ function About() {
     <section className="about" id="about">
       <div className="container">
         <div className="about-content">
-          <h2>About</h2>
+          <h2 className="section-title">About</h2>
           <p className="about-thesis">
             Building software that remains understandable as it grows.
           </p>
           <div className="about-body">
+            <p>Most of my projects start with curiosity.</p>
             <p>
-              Most projects start simply. Over time, requirements change,
-              systems evolve, and decisions that once seemed obvious begin
-              revealing tradeoffs.
+              A new technology. An unusual idea. A question I don't know the
+              answer to yet.
             </p>
             <p>
-              My work primarily focuses on modern web applications, though I'm
-              generally more interested in systems than technologies. Whether
-              I'm designing an interface, organizing a codebase, or evaluating
-              an architectural decision, I'm usually looking for the same thing:
-              coherence.
+              Sometimes that means designing interfaces. Sometimes it means
+              rethinking architecture. More often, it means discovering that the
+              original problem wasn't actually the interesting one.
             </p>
             <p>
-              The projects here reflect that approach. They're less a showcase
-              of tools and more a record of problems, constraints, decisions,
-              and the systems that emerged from them.
+              I'm drawn to the places where systems, design, and implementation
+              overlap—not because they're separate disciplines, but because they
+              rarely stay separate for long.
+            </p>
+            <p>
+              Whether I'm building something new or untangling something old,
+              I'm usually looking beneath the surface of the problem. Not just
+              how something works, but why it works that way—and what happens
+              when it changes.
             </p>
           </div>
         </div>
         <aside className="about-aside">
-          <h3>A Few Other Things</h3>
-          <ul>
+          <h3 className="about-aside-title">A Few Other Things</h3>
+          <ul className="about-aside-list">
             <li>Bay Area based</li>
             <li>Gamer</li>
             <li>Perpetual overanalyzer</li>
