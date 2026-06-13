@@ -1,0 +1,15 @@
+.site-header {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: var(--site-header-height);
+  width: 100%;
+  padding-inline: var(--section-padding-inline);
+  background: rgba(0,0,0,0.4);
+}
+
+.site-logo {
+  font-size: 2rem;
+}

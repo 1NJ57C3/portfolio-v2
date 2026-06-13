@@ -20,6 +20,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+section {
+  scroll-margin-top: var(--site-header-height);
+}
+
 #root {
   min-height: 100vh;
   min-height: 100dvh;
@@ -34,5 +38,5 @@ body {
 
 .container:not(.hero .container) {
   margin-inline: auto;
-  padding-inline: clamp(2rem , 6.25%, 4rem);
+  padding-inline: var(--section-padding-inline);
 }

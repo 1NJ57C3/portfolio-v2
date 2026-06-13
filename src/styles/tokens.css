@@ -6,6 +6,9 @@
   --color-border: 36, 33, 31;
 
   --canvas-width: min(100vw, calc(100vh * (16 / 9)));
+  --section-padding-inline: clamp(2rem , 6.25%, 4rem);
+  --content-width: 60rem;
+  --site-header-height: 5rem;
 
   --sans: system-ui, "Segoe UI", Roboto, sans-serif;
   --heading: system-ui, "Segoe UI", Roboto, sans-serif;
