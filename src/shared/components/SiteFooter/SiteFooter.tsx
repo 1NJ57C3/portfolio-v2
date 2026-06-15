@@ -9,7 +9,7 @@ function SiteFooter() {
       <p>
         Copyright &copy;{" "}
         {startYear < currentYear ? startYear + "-" + currentYear : currentYear}{" "}
-        1NJ57C3. All rights reserved.
+        Inji. All rights reserved.
       </p>
     </footer>
   );
