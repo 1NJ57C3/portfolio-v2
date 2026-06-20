@@ -9,7 +9,7 @@
 }
 
 .project-card {
-  min-height: 28vh;
+  min-height: 18.5rem;
   padding: 3rem;
   border: 2px solid rgba(var(--color-border), 0.6);
 }
