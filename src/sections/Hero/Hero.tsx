@@ -13,7 +13,7 @@ function Hero() {
             <p>Deliberate experiences.</p>
           </div>
           <button
-            className="hero-cta"
+            className="button-reset hero-cta"
             onClick={() => scrollToSection("projects")}
           >
             View selected work &rarr;

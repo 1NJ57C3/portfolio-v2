@@ -5,7 +5,7 @@ import "./navigation.css";
 function Navigation() {
   const displayNavItems = navItems.map(({ id, label }) => (
     <li key={id}>
-      <button className="nav-button" onClick={() => scrollToSection(id)}>
+      <button className="button-reset nav-button" onClick={() => scrollToSection(id)}>
         {label}
       </button>
     </li>

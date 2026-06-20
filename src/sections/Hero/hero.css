@@ -42,9 +42,5 @@
 
 .hero-cta {
   margin-block-start: 3rem;
-  padding-inline: 0;
   font-size: 1.25rem;
-  background: none;
-  border: none;
-  outline: none;
 }
