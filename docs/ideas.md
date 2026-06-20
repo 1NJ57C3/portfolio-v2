@@ -41,3 +41,9 @@ Sync to GitHub for project activity status (most recent commit within reasonable
 * hide header bar until mouse movement, click, or screen touch
 * taglines fade in sequentially as soon as page loads -- 1s initial timeout?
 * suspense boundary app? (probably doesn't work this way)
+
+## Skills display
+
+* Floating side panel, fades/slides in/out of opposite side of page on hover or selection of project card
+  * Alernatively, diagonal instead of horizontal opposite
+* Panel smoothly transitions up/down or from one side of page to other based on mouse position
