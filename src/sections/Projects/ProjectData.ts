@@ -1,10 +1,23 @@
-export interface Project {
+export type Project = {
   id: number;
   title: string;
-  description: string;
-  repoURL: string;
+  description: {
+    short: string;
+    full: string;
+  };
+  motivation: string;
+  details: {
+    rationale?: string[];
+    architecture?: string[];
+    implementation?: string[];
+    tradeoffs?: string[];
+  };
+  links: {
+    repo: string;
+    demo?: string;
+  };
   active: boolean;
-}
+};
 
 export type ProjectData = Project[];
 
