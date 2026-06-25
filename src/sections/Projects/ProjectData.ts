@@ -19,8 +19,6 @@ export type Project = {
   active: boolean;
 };
 
-export type ProjectData = Project[];
-
 const projectData = [];
 
 for (let i = 0; i < 3; i++) {
